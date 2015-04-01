@@ -1,0 +1,73 @@
+html {
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body { 
+	padding-top: 40px;  
+	background: transparent;
+}
+
+hr {
+	border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.backdrop {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -100;
+	background-color: rgba(43, 62, 80, 0.8)
+}
+
+.jumbotron {
+	background-color: rgba(43, 62, 80, 0.8)
+}
+
+.navbar {
+  	background-color: #04273a;
+  	margin-bottom: 0px;
+}
+
+.navbar .fa {
+	margin-right: 8px;
+}
+
+.jumbotron {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;	
+	position: relative;
+}
+
+.jumbotron h2 {
+	margin-right: 150px;
+}
+
+.home .header-image {
+	position: absolute;
+	bottom: 0px;
+	right: 75px;
+}
+
+.home .marketing-blurb h2 {
+	font-family: 'Roboto', sans-serif;
+}
+.home .marketing-blurb img {
+	margin: 10px 20px 50px 0;
+}
+
+
+.manifesto .header-image {
+	position: absolute;
+	bottom: 15px;
+	right: 75px;
+}
+
+.prototype .header-image {
+	position: absolute;
+	bottom: 15px;
+	right: 75px;
+}
