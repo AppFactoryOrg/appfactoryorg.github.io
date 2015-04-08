@@ -73,14 +73,22 @@ hr {
 }
 
 .about .contributors {
+	margin-left: -10px;
 }
 
-
 .about .contributor {
-	width: 300px;
-	margin: 20px 15px;
+	min-width: 300px;
+	margin: 20px 5px;
 	display: inline-block;
 	vertical-align: top;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 999px
+}
+
+@media (min-width: 600px) {
+	.about .contributor {
+		margin: 20px 15px;
+	}
 }
 
 .about .contributor img {
@@ -91,12 +99,16 @@ hr {
 
 .about .contributor .name {
 	margin-top: 10px;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 24px;
 }
 
+.about .contributor .name.small {
+	font-size: 20px;
+}
+
 .about .contributor .roles {
-	margin-top: 13px;
+	margin-top: 10px;
 }
 
 .about .contributor .role {
@@ -109,7 +121,7 @@ hr {
 
 .about .contributor .role.code {
 	background-color: #456CFF;
-	color: #FFFFFF;
+	color: #CAD9FF;
 }
 
 .about .contributor .role.ideas {
@@ -125,5 +137,19 @@ hr {
 .about .contributor .role.wisdom {
 	background-color: #614DD6;
 	color: #D7D4FF;
+}
+
+.about .contact-methods {
+	margin-top: 2px;
+}
+
+.about .contact-method {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.about .contact-method a {
+	color: rgba(255,255,255,0.5);
 }
 
