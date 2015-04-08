@@ -71,3 +71,59 @@ hr {
 	bottom: 15px;
 	right: 75px;
 }
+
+.about .contributors {
+}
+
+
+.about .contributor {
+	width: 300px;
+	margin: 20px 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about .contributor img {
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.about .contributor .name {
+	margin-top: 10px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.about .contributor .roles {
+	margin-top: 13px;
+}
+
+.about .contributor .role {
+	display: inline-block;
+	color: white;
+	font-size: 13px;
+	padding: 0px 5px;
+	margin: 2px;
+}
+
+.about .contributor .role.code {
+	background-color: #456CFF;
+	color: #FFFFFF;
+}
+
+.about .contributor .role.ideas {
+	background-color: #8A9C0F;
+	color: #EDFFCB;
+}
+
+.about .contributor .role.direction {
+	background-color: #FFD606;
+	color: #423801;
+}
+
+.about .contributor .role.wisdom {
+	background-color: #614DD6;
+	color: #D7D4FF;
+}
+
