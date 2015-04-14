@@ -139,6 +139,12 @@ hr {
 	color: #D7D4FF;
 }
 
+.about .contributor .role.arcana {
+	background-color: #614DD6;
+	color: #D7D4FF;
+}
+
+
 .about .contact-methods {
 	margin-top: 2px;
 }
