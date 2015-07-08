@@ -1,14 +1,18 @@
 html {
-    background: url(../img/bg1.jpg) no-repeat center center fixed; 
+    background: url(../img/bg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-body { 
-	padding-top: 40px;  
+body {
+	padding-top: 40px;
 	background: transparent;
+}
+
+a {
+    color: #5bc0de;
 }
 
 hr {
@@ -20,7 +24,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	z-index: -100;
-	background-color: rgba(43, 62, 80, 0.8)
+	background-color: rgba(43, 62, 80, 0.9)
 }
 
 .jumbotron {
@@ -38,7 +42,7 @@ hr {
 
 .jumbotron {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;	
+	font-weight: 100;
 	position: relative;
 }
 
@@ -159,3 +163,17 @@ hr {
 	color: rgba(255,255,255,0.5);
 }
 
+.beta .header-image {
+	position: absolute;
+	bottom: 25px;
+	right: 75px;
+}
+
+.beta .beta-link {
+    font-size: 20px;
+}
+
+.beta .forum-link {
+    display: block;
+    font-size: 20px;
+}
