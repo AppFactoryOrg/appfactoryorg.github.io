@@ -79,6 +79,8 @@ hr {
 
 .about .contributors {
 	margin-left: -10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .about .contributor {
@@ -103,13 +105,13 @@ hr {
 }
 
 .about .contributor .name {
-	margin-top: 10px;
-	font-size: 22px;
+	margin-top: 20px;
+	font-size: 21px;
 	line-height: 24px;
 }
 
 .about .contributor .name.small {
-	font-size: 20px;
+	font-size: 19.5px;
 }
 
 .about .contributor .roles {
