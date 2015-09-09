@@ -1,183 +1,56 @@
 html {
-    background: url(../img/bg1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  color: white;
+  background-color: #04273a;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body {
-	padding-top: 40px;
-	background: transparent;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500
+h1 {
+  font-family: 'Lobster', cursive;
 }
 
-a {
-    color: #5bc0de;
+.main-container {
+  padding-top: 50px;
+  text-align: center;
+  min-height: 500px;
 }
 
-hr {
-	border-top: 1px solid rgba(255, 255, 255, 0.16);
+.main-container h1 {
+  font-size: 72px;
+  margin-top: 0px;
+  letter-spacing: 2px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.shadow {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  -webkit-box-shadow: 0px 0px 50px 20px black;
+  -moz-box-shadow:    0px 0px 50px 20px black;
+  box-shadow:         0px 0px 50px 20px black;
 }
 
 .backdrop {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	z-index: -100;
-	background-color: rgba(43, 62, 80, 0.9)
+  background: url(../img/pipes.png) no-repeat center center fixed;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.08;
 }
 
-.jumbotron {
-	background-color: rgba(255,255,255, 0.1)
-}
-
-.navbar {
-  	background-color: #04273a;
-  	margin-bottom: 0px;
-}
-
-.navbar .fa {
-	margin-right: 8px;
-}
-
-.jumbotron {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	position: relative;
-}
-
-.jumbotron h2 {
-	margin-right: 150px;
-}
-
-.home .header-image {
-	position: absolute;
-	bottom: 0px;
-	right: 75px;
-}
-
-.home .marketing-blurb h2 {
-	font-family: 'Roboto', sans-serif;
-}
-.home .marketing-blurb img {
-	margin: 10px 20px 50px 0;
-}
-
-
-.manifesto .header-image {
-	position: absolute;
-	bottom: 15px;
-	right: 75px;
-}
-
-.prototype .header-image {
-	position: absolute;
-	bottom: 15px;
-	right: 75px;
-}
-
-.about .contributors {
-	margin-left: -10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.about .contributor {
-	min-width: 300px;
-	margin: 20px 5px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: rgba(255,255,255,0.1);
-	border-radius: 999px
-}
-
-@media (min-width: 600px) {
-	.about .contributor {
-		margin: 20px 15px;
-	}
-}
-
-.about .contributor img {
-	width: 100px;
-	float: left;
-	margin-right: 15px;
-}
-
-.about .contributor .name {
-	margin-top: 20px;
-	font-size: 21px;
-	line-height: 24px;
-}
-
-.about .contributor .name.small {
-	font-size: 19.5px;
-}
-
-.about .contributor .roles {
-	margin-top: 10px;
-}
-
-.about .contributor .role {
-	display: inline-block;
-	color: white;
-	font-size: 13px;
-	padding: 0px 5px;
-	margin: 2px;
-}
-
-.about .contributor .role.code {
-	background-color: #456CFF;
-	color: #CAD9FF;
-}
-
-.about .contributor .role.ideas {
-	background-color: #8A9C0F;
-	color: #EDFFCB;
-}
-
-.about .contributor .role.direction {
-	background-color: #FFD606;
-	color: #423801;
-}
-
-.about .contributor .role.wisdom {
-	background-color: #614DD6;
-	color: #D7D4FF;
-}
-
-.about .contributor .role.arcana {
-	background-color: #614DD6;
-	color: #D7D4FF;
-}
-
-
-.about .contact-methods {
-	margin-top: 2px;
-}
-
-.about .contact-method {
-	display: inline-block;
-	margin-top: 5px;
-	margin-right: 10px;
-}
-
-.about .contact-method a {
-	color: rgba(255,255,255,0.5);
-}
-
-.beta .header-image {
-	position: absolute;
-	bottom: 25px;
-	right: 75px;
-}
-
-.beta .beta-link {
-    font-size: 20px;
-}
-
-.beta .forum-link {
-    display: block;
-    font-size: 20px;
+footer {
+  text-align: center;
+  font-size: 10px;
 }
